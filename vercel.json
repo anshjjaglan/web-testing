@@ -1,0 +1,11 @@
+{
+  "buildCommand": "pnpm run build",
+  "devCommand": "pnpm run dev",
+  "installCommand": "pnpm install",
+  "framework": "react",
+  "build": {
+    "env": {
+      "DATABASE_URL": "@DATABASE_URL"
+    }
+  }
+}
